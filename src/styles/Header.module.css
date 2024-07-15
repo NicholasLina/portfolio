@@ -1,0 +1,8 @@
+.header {
+    padding: 80px 40px;
+}
+.tagline {
+    font-size: var(--fs-1);
+    font-weight: 400 !important;
+    text-align: center;
+}

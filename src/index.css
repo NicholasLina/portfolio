@@ -1,0 +1,78 @@
+/* font imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+h1, h2, h3 {
+  font-family: "Fustat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+}
+
+p, a, li {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+:root {
+  --fs-1: 1rem;
+  --fs-2: 1.333rem;
+  --fs-3: 1.777rem;
+  --fs-4: 2.369rem;
+  --fs-5: 3.157rem;
+  --fs-small: 0.75rem;
+}
+
+@media (min-width: 960px) {
+  :root {
+    --fs-1: 1rem;
+    --fs-2: 1.618rem;
+    --fs-3: 2.618rem;
+    --fs-4: 4.236rem;
+    --fs-5: 6.854rem;
+    --fs-small: 0.618rem;
+  }
+}
+
+:root {
+  --lush-green: #009d2e;
+  --golden-yellow: #ffdc14;
+}
+
+h1 {
+  font-size: var(--fs-3);
+  text-align: center;
+}
+
+/* makes sizing simpler */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* min body height */
+
+body {
+  min-height: 100vh;
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}

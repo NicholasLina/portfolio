@@ -1,0 +1,21 @@
+.nav {
+    /* background-color: #eee; */
+    border-bottom: 2px solid var(--lush-green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px 20px;
+}
+.logo {
+    font-family: "Fustat", sans-serif;
+    font-size: var(--fs-2);
+}
+.links {
+    display: flex;
+    gap: 20px;
+}
+.links svg{
+    height: 31px;
+    width: 31px;
+}
