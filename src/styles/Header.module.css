@@ -3,6 +3,21 @@
 }
 .tagline {
     font-size: var(--fs-1);
-    font-weight: 400 !important;
+    font-weight: 600 !important;
     text-align: center;
+    background-color: var(--golden-yellow);
+    width: fit-content;
+    margin: auto;
+    padding: 5px 20px;
+}
+.avatar {
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, var(--golden-yellow), var(--lush-green));
+    width: 250px;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+}
+.avatar img {
+    aspect-ratio: 1 / 1;
 }
