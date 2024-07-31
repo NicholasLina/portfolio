@@ -1,23 +1,26 @@
 .header {
     padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1 {
+    text-align: left;
 }
 .tagline {
-    font-size: var(--fs-1);
+    font-size: var(--fs-2);
     font-weight: 600 !important;
-    text-align: center;
-    background-color: var(--golden-yellow);
     width: fit-content;
-    margin: auto;
-    padding: 5px 20px;
+    margin: 20px auto;
 }
 .avatar {
-    margin: 40px auto;
+    margin: 40px;
     padding: 20px;
     background: linear-gradient(135deg, var(--golden-yellow), var(--lush-green));
-    width: 250px;
     aspect-ratio: 1 / 1;
     border-radius: 100%;
 }
 .avatar img {
+    min-width: 300px;
     aspect-ratio: 1 / 1;
 }
