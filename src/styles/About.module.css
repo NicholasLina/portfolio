@@ -5,12 +5,12 @@
 }
 
 .about h2 {
-    font-size: 24px;
+    color: var(--golden-yellow);
     text-align: center;
 }
 
 .about p {
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
     text-align: center;
 }

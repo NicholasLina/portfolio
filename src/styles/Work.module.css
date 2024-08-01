@@ -1,0 +1,63 @@
+.work {
+    padding: 60px 40px;
+    text-align: center;
+    /* background-color: var(--golden-yellow); */
+    background-color: #eee;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    /* border: 1px solid var(--lush-green); */
+    border-radius: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 5px 5px 0 0 #0004;
+}
+
+.card img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--lush-green);
+    padding: 10px;
+}
+
+.cover h3 {
+    color: var(--golden-yellow);
+}
+
+.cover p {
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 200ms;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover p {
+    max-height: 100px;
+}

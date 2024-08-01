@@ -4,7 +4,7 @@ export default function About() {
     return(
         <section className={ styles.about }>
             <h2>A little bit about me</h2>
-            <p>I have had a passion for writing code and learning about computers since I was 10 years old. I've spent many weekends learning about new technologies, different coding languages and design and I wouldn't have it any other way!</p>
+            <p>I love all things technology and am obsessed with finding the latest and greatest tools that push the boundaries of possibilities. I am a strong believer in finding the right tool for the job and delivering products that simple, scalable, and easy to maintain.</p>
         </section>
     )
 }
