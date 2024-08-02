@@ -21,6 +21,7 @@ export default function Skills() {
                 <ul>
                     <li>MERN/LAMP</li>
                     <li>Linux</li>
+                    <li>TypeScript</li>
                     <li>GitHub</li>
                     <li>Docker</li>
                     <li>Postman</li>
@@ -31,10 +32,10 @@ export default function Skills() {
                 <FaRegLightbulb />
                 <h3>Designer</h3>
 
-                <h4>My philosophy</h4>
+                <h4>Philosophy</h4>
                 <p>Simplicity and clear intentions make the most effective and versatile designs</p>
 
-                <h4>Things I've designed</h4>
+                <h4>Experience</h4>
                 <p>UX/UI, Websites, Logos, Vector Graphics</p>
 
                 <h4>Tools that I use</h4>

@@ -1,0 +1,55 @@
+.contact {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: var(--golden-yellow);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.contact h2 {
+    color: var(--lush-green);
+}
+
+.icon {
+    border-radius: 100%;
+    padding: 20px;
+    margin: 40px auto;
+    width: fit-content;
+    background-color: white;
+    aspect-ratio: 1 /1;
+}
+
+.contact svg {
+    font-size: 180px;
+    color: var(--lush-green);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--lush-green);
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.form input, .form textarea {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.form button {
+    background-color: var(--golden-yellow);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.form button:hover {
+    background-color: white;
+    cursor: pointer;
+}
