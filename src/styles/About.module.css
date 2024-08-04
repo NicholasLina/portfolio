@@ -14,3 +14,9 @@
     margin: auto;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .about {
+        padding: 40px 20px;
+    }
+}
