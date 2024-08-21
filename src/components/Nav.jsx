@@ -7,8 +7,8 @@ const Nav = () => {
         <div className={ styles.nav }>
             <a className={ styles.logo }>Nick Lina</a>
             <div className={ styles.links }>
-                <a><FaLinkedin /></a>
-                <a><FaCodepen /></a>
+                <a href="https://www.linkedin.com/in/nick-lina-87bb92164/"><FaLinkedin /></a>
+                <a href="https://codepen.io/nicklina"><FaCodepen /></a>
             </div>
         </div>
     )

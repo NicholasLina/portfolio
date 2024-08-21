@@ -16,6 +16,10 @@
     gap: 20px;
 }
 .links svg{
+    color: black;
     height: 31px;
     width: 31px;
+}
+.links a:hover svg {
+    color: var(--lush-green);
 }
