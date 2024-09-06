@@ -12,10 +12,10 @@ export default function Skills() {
                 <h3>Developer</h3>
 
                 <h4>Highlights</h4>
-                <p>Websites, UIs, APIs, Automation Tools, Digital Artwork</p>
+                <p>Websites, UIs, APIs, <br></br>Automation Tools, Digital Artwork</p>
 
                 <h4>Languages</h4>
-                <p>TypeScript, JavaScript ES6+, Python, Java, CSS, Semantic HTML</p>
+                <p>TypeScript, JavaScript ES6+, Python,<br></br> Java, CSS, Semantic HTML</p>
 
                 <h4>Technologies that I use</h4>
                 <ul>
