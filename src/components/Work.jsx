@@ -3,12 +3,20 @@ import styles from "../styles/Work.module.css"
 import CSSYPHUS from "../assets/CSSyphus.webp"
 import EMERGE from "../assets/Emerge.webp"
 import CONSUMPTION_RENEWAL from "../assets/ConsumptionRenewal.webp"
+import TLN from "../assets/TLN.webp"
 
 export default function Work() {
     return(
         <section className={ styles.work }>
             <h2>Some of my work</h2>
             <div className={ styles.grid }>
+            <a href="https://tln.ca/" target="_blank" className={ styles.card }>
+                    <img src={ TLN }></img>
+                    <div className={ styles.cover }>
+                        <h3>TLN</h3>
+                        <p>Show info, events, recipes, schedules, and more all under one roof!</p>
+                    </div>
+                </a>
                 <a href="https://emergetheseries.ca/" target="_blank" className={ styles.card }>
                     <img src={ EMERGE }></img>
                     <div className={ styles.cover }>

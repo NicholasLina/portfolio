@@ -12,20 +12,20 @@ export default function Skills() {
                 <h3>Developer</h3>
 
                 <h4>Highlights</h4>
-                <p>Websites, APIs, Automation Tools, Digital Artwork</p>
+                <p>Websites, UIs, APIs, Automation Tools, Digital Artwork</p>
 
                 <h4>Languages</h4>
-                <p>JavaScript, Python, CSS, HTML</p>
+                <p>TypeScript, JavaScript ES6+, Python, Java, CSS, Semantic HTML</p>
 
                 <h4>Technologies that I use</h4>
                 <ul>
                     <li>MERN/LAMP</li>
                     <li>Linux</li>
-                    <li>TypeScript</li>
                     <li>GitHub</li>
                     <li>Docker</li>
                     <li>Postman</li>
                     <li>VSCode</li>
+                    <li>ViteJS</li>
                 </ul>
             </div>
             <div className={styles.card}>
@@ -44,6 +44,7 @@ export default function Skills() {
                     <li>Photoshop</li>
                     <li>Figma</li>
                     <li>Inkscape</li>
+                    <li>ImageMagick</li>
                 </ul>
             </div>
         </section>
