@@ -1,6 +1,6 @@
 .work {
     position: relative;
-    padding: 60px 40px;
+    padding: 0 40px 60px 40px;
     text-align: center;
     background-color: #eee;
 }
@@ -77,4 +77,10 @@
 
 .card:hover p {
     max-height: 100px;
+}
+
+@media (max-width: 600px) {
+    .work {
+        padding: 20px;
+    }
 }

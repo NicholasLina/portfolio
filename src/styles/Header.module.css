@@ -24,3 +24,24 @@
     min-width: 300px;
     aspect-ratio: 1 / 1;
 }
+
+@media (max-width: 880px) {
+    .avatar img {
+        min-width: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .avatar img {
+        max-width: 200px;
+    }
+    .header {
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header h1, .tagline {
+        text-align: center;
+        max-width: 380px;
+    }
+}

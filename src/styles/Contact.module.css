@@ -54,3 +54,31 @@
     background-color: white;
     cursor: pointer;
 }
+
+@media (max-width: 880px) {
+    .contact {
+        gap: 40px;
+    }
+    .contact h2 {
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    .icon {
+        margin: 20px auto;
+    }
+    .contact svg {
+        font-size: 120px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .contact {
+        padding: 20px;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .contact p {
+        max-width: 350px;
+    }
+}
