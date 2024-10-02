@@ -1,0 +1,25 @@
+.noMatch {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.noMatch h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.noMatch a {
+    background-color: var(--lush-green);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.noMatch a:hover {
+    background-color: var(--golden-yellow);
+    color: black;
+}
